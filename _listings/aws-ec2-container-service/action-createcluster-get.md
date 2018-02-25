@@ -26,6 +26,7 @@ paths:
       tags:
       - clusters
 definitions: []
+x-collection-name: AWS EC2 Container Service
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
