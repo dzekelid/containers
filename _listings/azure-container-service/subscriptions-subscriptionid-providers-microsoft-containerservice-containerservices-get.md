@@ -141,6 +141,7 @@ definitions:
       agentPoolProfiles:
         description: This is a default description.
         type: get
+x-collection-name: Azure Container Service
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
