@@ -18,11 +18,22 @@ tags:
 - Deployment
 - Containers
 - Amazon Web Services
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/containers/master/_listings/aws-ec2-container-service/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Amazon EC2 Container Service API
+  description: Amazon EC2 Container Service (ECS) is a highly scalable, high performance
+    container management service that supports Docker containers and allows you to
+    easily run applications on a managed cluster of Amazon EC2 instances
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: ""
+  baseURL: :///
+  tags: Containers
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/action-deregistercontainerinstance-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
