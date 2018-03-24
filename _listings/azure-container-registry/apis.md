@@ -11,11 +11,22 @@ tags:
 - Stack Network
 - Microsoft
 - Containers
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/containers/master/_listings/azure-container-registry/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Azure Container Registry API
+  description: Azure Container Registry allows you to store images for all types of
+    container deployments including DC/OS, Docker Swarm, Kubernetes, and Azure services
+    such as App Service, Batch, Service Fabric, and others
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-manage-containers.png
+  humanURL: ""
+  baseURL: ://management.azure.com//
+  tags: Containers
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/subscriptions-subscriptionid-providers-microsoft-containerregistry-checknameavailability-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/container-registry/
