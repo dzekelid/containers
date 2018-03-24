@@ -13,11 +13,21 @@ tags:
 - Microsoft
 - Deployment
 - Containers
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/containers/master/_listings/azure-container-service/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Azure Container Service API
+  description: Azure Container Service optimizes the configuration of popular open-source
+    tools and technologies specifically for Azure
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-container-service.png
+  humanURL: ""
+  baseURL: ://management.azure.com//
+  tags: Containers
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-providers-microsoft-containerservice-containerservices-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/container-service/
