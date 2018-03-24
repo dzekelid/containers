@@ -26,7 +26,7 @@ apis:
   tags: Containers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerregistry-registries-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/subscriptions-subscriptionid-providers-microsoft-containerregistry-registries-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/container-registry/
