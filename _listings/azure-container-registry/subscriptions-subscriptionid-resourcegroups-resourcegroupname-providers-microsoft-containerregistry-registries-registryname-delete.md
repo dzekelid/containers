@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ContainerRegistryManagementClient
+  title: Azure Container Registry API Registries Delete
   version: 1.0.0
+  description: Deletes a container registry.
 host: management.azure.com
 basePath: /
 schemes:
