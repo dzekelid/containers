@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: ContainerRegistryManagementClient
+  title: Azure Container Registry API Registries Regenerate Credential
   version: 1.0.0
+  description: Regenerates one of the login credentials for the specified container
+    registry.
 host: management.azure.com
 basePath: /
 schemes:
