@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ContainerRegistryManagementClient
+  title: Azure Container Registry API Registries List Credentials
   version: 1.0.0
+  description: Lists the login credentials for the specified container registry.
 host: management.azure.com
 basePath: /
 schemes:
