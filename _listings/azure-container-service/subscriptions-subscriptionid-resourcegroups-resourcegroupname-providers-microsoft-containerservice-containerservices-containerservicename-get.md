@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: ContainerServiceClient
-  description: The Container Service Client.
+  title: Azure Container Service API Container Services Get
+  description: Gets the properties of the specified container service in the specified
+    subscription and resource group. The operation returns the properties including
+    state, orchestrator, number of masters and agents, and FQDNs of masters and agents.
   version: 1.0.0
 host: management.azure.com
 basePath: /
