@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ContainerRegistryManagementClient
+  title: Azure Container Registry API Registries List
   version: 1.0.0
+  description: Lists all the container registries under the specified subscription.
 host: management.azure.com
 basePath: /
 schemes:
