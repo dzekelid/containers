@@ -28,19 +28,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-get.md
-- name: Azure Container Service API Container Services List
-  description: Gets a list of container services in the specified subscription. The
-    operation returns properties of each container service including state, orchestrator,
-    number of masters and agents, and FQDNs of masters and agents.
+- name: Azure Container Service API Container Services Create Or Update
+  description: Creates or updates a container service with the specified configuration
+    of orchestrator, masters, and agents.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-container-service.png
   humanURL: https://azure.microsoft.com/en-us/services/container-service/
   baseURL: http:://management.azure.com//
   tags: Containers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-providers-microsoft-containerservice-containerservices-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-providers-microsoft-containerservice-containerservices-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-containerservicename-put.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/container-service/
