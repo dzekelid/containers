@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ContainerServiceClient
-  description: The Container Service Client.
+  title: Azure Container Service API Container Services Create Or Update
+  description: Creates or updates a container service with the specified configuration
+    of orchestrator, masters, and agents.
   version: 1.0.0
 host: management.azure.com
 basePath: /
