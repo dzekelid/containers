@@ -36,7 +36,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-storageaccounts-storageaccountname-containers-get.md
+- name: Azure Data Lake Analytics API Storage Accounts Get Storage Container
+  description: Gets the specified Azure Storage container associated with the given
+    Data Lake Analytics and Azure Storage accounts.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: http:://{host}//
+  tags: Containers
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-storageaccounts-storageaccountname-containers-containername-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-storageaccounts-storageaccountname-containers-containername-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/data-lake-analytics/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/data-lake-analytics/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/data-lake-analytics/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
 - type: x-pricing
