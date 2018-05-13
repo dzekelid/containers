@@ -38,7 +38,27 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerregistry-registries-registryname-listcredentials-post.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerregistry-registries-registryname-listcredentials-post-postman.md
+- name: Azure Container Registry API Registries Regenerate Credential
+  description: Regenerates one of the login credentials for the specified container
+    registry.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-manage-containers.png
+  humanURL: https://azure.microsoft.com/en-us/services/container-registry/
+  baseURL: http:://management.azure.com//
+  tags: Containers
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerregistry-registries-registryname-regeneratecredential-post.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/container-registry/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/container-registry/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/container-registry/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/container-registry/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/container-registry/
 - type: x-pricing
