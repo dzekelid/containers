@@ -28,16 +28,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-get.md
-- name: Azure Container Service API Container Services Create Or Update
-  description: Creates or updates a container service with the specified configuration
-    of orchestrator, masters, and agents.
+- name: Azure Container Service API Container Services Get
+  description: Gets the properties of the specified container service in the specified
+    subscription and resource group. The operation returns the properties including
+    state, orchestrator, number of masters and agents, and FQDNs of masters and agents.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-container-service.png
   humanURL: https://azure.microsoft.com/en-us/services/container-service/
   baseURL: http:://management.azure.com//
   tags: Containers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-containerservicename-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-containerservicename-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-containerservicename-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/container-service/
