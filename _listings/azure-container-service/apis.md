@@ -28,7 +28,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-get.md
+- name: Azure Container Service API Container Services List
+  description: Gets a list of container services in the specified subscription. The
+    operation returns properties of each container service including state, orchestrator,
+    number of masters and agents, and FQDNs of masters and agents.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-container-service.png
+  humanURL: https://azure.microsoft.com/en-us/services/container-service/
+  baseURL: http:://management.azure.com//
+  tags: Containers
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-providers-microsoft-containerservice-containerservices-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-providers-microsoft-containerservice-containerservices-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/container-service/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/container-service/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/container-service/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/container-service/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/container-service/
 - type: x-pricing
