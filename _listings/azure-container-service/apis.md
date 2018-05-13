@@ -28,21 +28,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-get.md
-- name: Azure Container Service API Container Services Delete
-  description: Deletes the specified container service in the specified subscription
-    and resource group. The operation does not delete other resources created as part
-    of creating a container service, including storage accounts, VMs, and availability
-    sets. All the other resources created with the container service are part of the
-    same resource group and can be deleted individually.
+- name: Azure Container Service API Container Services List By Resource Group
+  description: Gets a list of container services in the specified subscription and
+    resource group. The operation returns properties of each container service including
+    state, orchestrator, number of masters and agents, and FQDNs of masters and agents.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-container-service.png
   humanURL: https://azure.microsoft.com/en-us/services/container-service/
   baseURL: http:://management.azure.com//
   tags: Containers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-containerservicename-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-containerservicename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerservice-containerservices-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/container-service/
