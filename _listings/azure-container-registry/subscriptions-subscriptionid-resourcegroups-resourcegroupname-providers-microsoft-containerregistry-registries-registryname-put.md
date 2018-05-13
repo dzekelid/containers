@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ContainerRegistryManagementClient
+  title: Azure Container Registry API Registries Create
   version: 1.0.0
+  description: Creates a container registry with the specified parameters.
 host: management.azure.com
 basePath: /
 schemes:
