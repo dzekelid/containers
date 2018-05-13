@@ -27,15 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerregistry-registries-registryname-regeneratecredential-post.md
-- name: Azure Container Registry API Registries Create
-  description: Creates a container registry with the specified parameters.
+- name: Azure Container Registry API Registries Delete
+  description: Deletes a container registry.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-manage-containers.png
   humanURL: https://azure.microsoft.com/en-us/services/container-registry/
   baseURL: http:://management.azure.com//
   tags: Containers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerregistry-registries-registryname-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerregistry-registries-registryname-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-containerregistry-registries-registryname-delete-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/container-registry/
