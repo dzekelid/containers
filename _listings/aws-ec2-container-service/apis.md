@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/action-updatecontaineragent-get.md
-- name: Amazon EC2 Container Service API Register Container Instance
-  description: Deregisters an Amazon ECS container instance from the specified cluster.
+- name: Amazon EC2 Container Service API Update Container Agent
+  description: Updates the Amazon ECS container agent on a specified container instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
   humanURL: https://aws.amazon.com/ecs/
   baseURL: http:://{host}//
   tags: Containers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/action-registercontainerinstance-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/action-updatecontaineragent-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonECS/latest/APIReference/
