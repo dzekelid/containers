@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ContainerRegistryManagementClient
+  title: Azure Container Registry API Registries Update
   version: 1.0.0
+  description: Updates a container registry with the specified parameters.
 host: management.azure.com
 basePath: /
 schemes:
