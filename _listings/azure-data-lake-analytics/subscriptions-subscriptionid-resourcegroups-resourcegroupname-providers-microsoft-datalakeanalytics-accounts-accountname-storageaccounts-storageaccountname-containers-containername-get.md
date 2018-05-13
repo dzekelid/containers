@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DataLakeAnalyticsJobManagementClient
-  description: Creates an Azure Data Lake Analytics job client.
+  title: Azure Data Lake Analytics API Storage Accounts Get Storage Container
+  description: Gets the specified Azure Storage container associated with the given
+    Data Lake Analytics and Azure Storage accounts.
   version: 1.0.0
 basePath: /
 schemes:
