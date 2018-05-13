@@ -36,18 +36,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-storageaccounts-storageaccountname-containers-get.md
-- name: Azure Data Lake Analytics API Storage Accounts Get Storage Container
-  description: Gets the specified Azure Storage container associated with the given
-    Data Lake Analytics and Azure Storage accounts.
+- name: Azure Data Lake Analytics API Storage Accounts List Storage Containers
+  description: Lists the Azure Storage containers, if any, associated with the specified
+    Data Lake Analytics and Azure Storage account combination. The response includes
+    a link to the next page of results, if any.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
   humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
   baseURL: http:://{host}//
   tags: Containers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-storageaccounts-storageaccountname-containers-containername-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-storageaccounts-storageaccountname-containers-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-storageaccounts-storageaccountname-containers-containername-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-data-lake-analytics/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-datalakeanalytics-accounts-accountname-storageaccounts-storageaccountname-containers-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
