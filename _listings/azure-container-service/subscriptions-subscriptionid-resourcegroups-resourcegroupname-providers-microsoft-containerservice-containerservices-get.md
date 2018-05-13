@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: ContainerServiceClient
-  description: The Container Service Client.
+  title: Azure Container Service API Container Services List By Resource Group
+  description: Gets a list of container services in the specified subscription and
+    resource group. The operation returns properties of each container service including
+    state, orchestrator, number of masters and agents, and FQDNs of masters and agents.
   version: 1.0.0
 host: management.azure.com
 basePath: /
