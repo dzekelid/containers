@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: ContainerRegistryManagementClient
+  title: Azure Container Registry API Registries Check Name Availability
   version: 1.0.0
+  description: Checks whether the container registry name is available for use. The
+    name must contain only alphanumeric characters, be globally unique, and between
+    5 and 60 characters in length.
 host: management.azure.com
 basePath: /
 schemes:
