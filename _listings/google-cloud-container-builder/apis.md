@@ -1,5 +1,6 @@
 ---
 name: Google Cloud Container Builder
+x-slug: google-cloud-container-builder
 description: Google Cloud Container Builder lets you create Docker container images
   from application source code located in Google Cloud Storage. Container images created
   by Container Builder are automatically stored in Google Container Registry. You
@@ -8,18 +9,18 @@ description: Google Cloud Container Builder lets you create Docker container ima
   applications from Docker containers.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/container-builder-lead.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Google APIs
-- Deployment
-- Containers
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/containers/master/_listings/google-cloud-container-builder/apis.yaml
+x-alexaRank: "0"
+tags: Containers
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/google-cloud-container-builder/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.billing.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.container.builder.stack.network
 - type: x-documentation
   url: https://cloud.google.com/container-builder/docs/
 - type: x-pricing

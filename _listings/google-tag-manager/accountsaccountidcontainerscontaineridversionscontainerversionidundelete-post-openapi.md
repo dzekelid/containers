@@ -210,6 +210,262 @@ paths:
       tags:
       - Containers
       - Versions
+  /accounts/{accountId}/containers:
+    get:
+      summary: Get Conainers
+      description: Lists all Containers that belongs to a GTM Account.
+      operationId: tagmanager.accounts.containers.list
+      x-api-path-slug: accountsaccountidcontainers-get
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Container
+    post:
+      summary: Create Container
+      description: Creates a Container.
+      operationId: tagmanager.accounts.containers.create
+      x-api-path-slug: accountsaccountidcontainers-post
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Container
+  /accounts/{accountId}/containers/{containerId}:
+    delete:
+      summary: Delete Container
+      description: Deletes a Container.
+      operationId: tagmanager.accounts.containers.delete
+      x-api-path-slug: accountsaccountidcontainerscontainerid-delete
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: path
+        name: containerId
+        description: The GTM Container ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Container
+    get:
+      summary: Get Container
+      description: Gets a Container.
+      operationId: tagmanager.accounts.containers.get
+      x-api-path-slug: accountsaccountidcontainerscontainerid-get
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: path
+        name: containerId
+        description: The GTM Container ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Container
+    put:
+      summary: Update Container
+      description: Updates a Container.
+      operationId: tagmanager.accounts.containers.update
+      x-api-path-slug: accountsaccountidcontainerscontainerid-put
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: containerId
+        description: The GTM Container ID
+      - in: query
+        name: fingerprint
+        description: When provided, this fingerprint must match the fingerprint of
+          the container in storage
+      responses:
+        200:
+          description: OK
+      tags:
+      - Container
+  /accounts/{accountId}/containers/{containerId}/environments:
+    get:
+      summary: Get GTM Environments
+      description: Lists all GTM Environments of a GTM Container.
+      operationId: tagmanager.accounts.containers.environments.list
+      x-api-path-slug: accountsaccountidcontainerscontaineridenvironments-get
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: path
+        name: containerId
+        description: The GTM Container ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - GTM Environment
+  /accounts/{accountId}/containers/{containerId}/folders:
+    get:
+      summary: Get GTM Folders
+      description: Lists all GTM Folders of a Container.
+      operationId: tagmanager.accounts.containers.folders.list
+      x-api-path-slug: accountsaccountidcontainerscontaineridfolders-get
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: path
+        name: containerId
+        description: The GTM Container ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - GTM Folder
+  /accounts/{accountId}/containers/{containerId}/tags:
+    get:
+      summary: Get GTM Tags
+      description: Lists all GTM Tags of a Container.
+      operationId: tagmanager.accounts.containers.tags.list
+      x-api-path-slug: accountsaccountidcontainerscontaineridtags-get
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: path
+        name: containerId
+        description: The GTM Container ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - GTM Tag
+  /accounts/{accountId}/containers/{containerId}/triggers:
+    get:
+      summary: Get GTM Triggers
+      description: Lists all GTM Triggers of a Container.
+      operationId: tagmanager.accounts.containers.triggers.list
+      x-api-path-slug: accountsaccountidcontainerscontaineridtriggers-get
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: path
+        name: containerId
+        description: The GTM Container ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - GTM Trigger
+  /accounts/{accountId}/containers/{containerId}/variables:
+    get:
+      summary: Get GTM Variables
+      description: Lists all GTM Variables of a Container.
+      operationId: tagmanager.accounts.containers.variables.list
+      x-api-path-slug: accountsaccountidcontainerscontaineridvariables-get
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: path
+        name: containerId
+        description: The GTM Container ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - GTM Variable
+  /accounts/{accountId}/permissions:
+    get:
+      summary: Get User Permissions
+      description: List all users that have access to the account along with Account
+        and Container Permissions granted to each of them.
+      operationId: tagmanager.accounts.permissions.list
+      x-api-path-slug: accountsaccountidpermissions-get
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - User Permission
+    post:
+      summary: Create User Permission
+      description: Creates a user's Account & Container Permissions.
+      operationId: tagmanager.accounts.permissions.create
+      x-api-path-slug: accountsaccountidpermissions-post
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - User Permission
+  /accounts/{accountId}/permissions/{permissionId}:
+    get:
+      summary: Get User
+      description: Gets a user's Account & Container Permissions.
+      operationId: tagmanager.accounts.permissions.get
+      x-api-path-slug: accountsaccountidpermissionspermissionid-get
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: path
+        name: permissionId
+        description: The GTM User ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+    put:
+      summary: Update User
+      description: Updates a user's Account & Container Permissions.
+      operationId: tagmanager.accounts.permissions.update
+      x-api-path-slug: accountsaccountidpermissionspermissionid-put
+      parameters:
+      - in: path
+        name: accountId
+        description: The GTM Account ID
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: permissionId
+        description: The GTM User ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -135,4 +135,40 @@ paths:
       tags:
       - Containers
       - Agents
+  /?Action=DiscoverPollEndpoint:
+    get:
+      summary: Discover Poll Endpoint
+      description: This action is only used by the Amazon EC2 Container Service agent,
+        and it is not intended for use outside of the agent.
+      operationId: discoverPollEndpoint
+      x-api-path-slug: actiondiscoverpollendpoint-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Poll Endpoints
+  /?Action=SubmitContainerStateChange:
+    get:
+      summary: Submit Container State Change
+      description: This action is only used by the Amazon EC2 Container Service agent,
+        and it is not intended for use outside of the agent.
+      operationId: submitContainerStateChange
+      x-api-path-slug: actionsubmitcontainerstatechange-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Container State Change
+  /?Action=SubmitTaskStateChange:
+    get:
+      summary: Submit Task State Change
+      description: This action is only used by the Amazon EC2 Container Service agent,
+        and it is not intended for use outside of the agent.
+      operationId: submitTaskStateChange
+      x-api-path-slug: actionsubmittaskstatechange-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Task State Change
 ---

@@ -1,28 +1,29 @@
 ---
 name: AWS Elastic Beanstalk
+x-slug: aws-elastic-beanstalk
 description: AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling
-  web applications and services developed with Java,nbsp;.NET, PHP, Node.js, Python,
-  Ruby, Go, andnbsp;Dockernbsp;on familiar servers such as Apache, Nginx, Passenger,
-  andnbsp;IIS.nYou can simply upload your code and Elastic Beanstalk automatically
-  handles the deployment, from capacity provisioning, load balancing, auto-scaling
-  to application health monitoring. At the same time, you retain full control over
-  the AWS resources powering your application and can access the underlying resources
-  at any time.nThere is no additional charge for Elastic Beanstalk - you pay only
-  for the AWS resources needed to store and run your applications.
+  web applications and services developed with Java,.NET, PHP, Node.js, Python, Ruby,
+  Go, andDockeron familiar servers such as Apache, Nginx, Passenger, andIIS.You can
+  simply upload your code and Elastic Beanstalk automatically handles the deployment,
+  from capacity provisioning, load balancing, auto-scaling to application health monitoring.
+  At the same time, you retain full control over the AWS resources powering your application
+  and can access the underlying resources at any time.There is no additional charge
+  for Elastic Beanstalk - you pay only for the AWS resources needed to store and run
+  your applications.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Deployment
-- Containers
-- Amazon Web Services
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/containers/master/_listings/aws-elastic-beanstalk/apis.yaml
+x-alexaRank: "0"
+tags: Containers
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-elastic-beanstalk/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.ec2.systems.manager.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.elastic.beanstalk.stack.network
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/AWS-Elastic-Beanstalk
 - type: x-command-line-interface

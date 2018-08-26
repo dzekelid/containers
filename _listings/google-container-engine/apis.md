@@ -1,5 +1,6 @@
 ---
 name: Google Container Engine
+x-slug: google-container-engine
 description: Google Container Engine is a powerful cluster manager and orchestration
   system for running your Docker containers. Container Engine schedules your containers
   into the cluster and manages them automatically based on requirements you define
@@ -7,18 +8,18 @@ description: Google Container Engine is a powerful cluster manager and orchestra
   you the flexibility to take advantage of on-premises, hybrid, or public cloud infrastructure.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/docker-container.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Google APIs
-- Deployment
-- Containers
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/containers/master/_listings/google-container-engine/apis.yaml
+x-alexaRank: "0"
+tags: Containers
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/google-container-engine/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.consumer.surveys.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.container.engine.stack.network
 - type: x-change-log
   url: https://cloud.google.com/container-engine/release-notes
 - type: x-documentation

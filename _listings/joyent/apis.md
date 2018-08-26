@@ -1,23 +1,32 @@
 ---
 name: Joyent
-description: Joyent delivers container-native infrastructure, offering organizations
-  high-performance, yet simple public cloud and private cloud software solutions for
-  todayrsquo;s demanding real-time web and mobile applications.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/joyent.jpg
+x-slug: joyent
+description: Open source and Hybrid Cloud Infrastructure as a Service specialized
+  in running Containers, Serverless Docker and VMs securely at scale for over a decade.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11655-joyent.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Containers
-- Cloud Computing
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/containers/master/_listings/joyent/apis.yaml
+x-alexaRank: "143119"
+tags: Containers
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/joyent/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
 - type: x-blog
   url: https://www.joyent.com/blog
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/joyent
+- type: x-email
+  url: marketing@joyent.com
+- type: x-email
+  url: sales@joyent.com
+- type: x-email
+  url: jobs@joyent.com
+- type: x-email
+  url: aup@Joyent.com
+- type: x-email
+  url: support@joyent.com
 - type: x-github
   url: https://github.com/joyent
 - type: x-blog-rss

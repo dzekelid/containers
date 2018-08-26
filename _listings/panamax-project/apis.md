@@ -1,19 +1,18 @@
 ---
 name: Panamax Project
+x-slug: panamax-project
 description: An open-source project that makes deploying complex containerized apps
   as easy as Drag-and-Drop. Panamax is a containerized app creator with an open-source
   app marketplace hosted in GitHub. Panamax provides a friendly interface for users
-  of Docker, Fleet amp; CoreOS. With Panamax, you can easily create, share and deploy
+  of Docker, Fleet &amp; CoreOS. With Panamax, you can easily create, share and deploy
   any containerized app no matter how complex it might be.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/panamax-logo.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Containers
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/containers/master/_listings/panamax-project/apis.yaml
+x-alexaRank: "0"
+tags: Containers
+created: "2018-08-25"
+modified: "2018-08-25"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/panamax-project/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
