@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Containers
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/apis.md
 specificationVersion: "0.14"
 apis:
@@ -30,6 +30,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptionssubscriptionidprovidersmicrosoft-containerservicecontainerservices-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptionssubscriptionidprovidersmicrosoft-containerservicecontainerservices-get-openapi.md
+- name: ContainerServiceClient - Container Services Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerservicecontainerservicescontainerservicename-put
+  description: Creates or updates a container service with the specified configuration
+    of orchestrator, masters, and agents.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-container-service.png
+  humanURL: https://azure.microsoft.com/en-us/services/container-service/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Containers, Stack Network, API Service Provider, API Provider,
+    Deployments, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerservicecontainerservicescontainerservicename-put-openapi.md
 - name: ContainerServiceClient - Container Services Get
   x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-containerservicecontainerservicescontainerservicename-get
   description: Gets the properties of the specified container service in the specified

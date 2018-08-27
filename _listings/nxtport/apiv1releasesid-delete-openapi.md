@@ -24,6 +24,30 @@ produces:
 consumes:
 - application/json
 paths:
+  /nxtportdocument/{blnumber}/cn/{containerNumber}:
+    get:
+      summary: Returns the file with corresponding blnumbers and containernumber.
+      description: Returns the file with corresponding blnumbers and containernumber..
+      operationId: NxtportdocumentByBlnumberCnByContainerNumberGet
+      x-api-path-slug: nxtportdocumentblnumbercncontainernumber-get
+      parameters:
+      - in: path
+        name: blnumber
+        description: blnumber
+      - in: path
+        name: containerNumber
+        description: containernumber
+      - in: header
+        name: Ocp-Apim-Subscription-Key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Returns
+      - File
+      - Corresponding
+      - Blnumbers
+      - Containernumber
   /api/v1/containers:
     get:
       summary: List Containers

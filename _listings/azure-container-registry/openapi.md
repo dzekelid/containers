@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Container Registry
 x-complete: 1
@@ -171,4 +170,3 @@ paths:
       tags:
       - Containers
       - Registries
----

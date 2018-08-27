@@ -15,11 +15,132 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Containers
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS EC2 Container Service API - Deregister Container Instance
+  x-api-slug: actionderegistercontainerinstance-get
+  description: Deregisters an Amazon ECS container instance from the specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionderegistercontainerinstance-get-openapi.md
+- name: AWS EC2 Container Service API - Describe Container Instances
+  x-api-slug: actiondescribecontainerinstances-get
+  description: Describes Amazon EC2 Container Service container instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actiondescribecontainerinstances-get-openapi.md
+- name: AWS EC2 Container Service API - List Container Instances
+  x-api-slug: actionlistcontainerinstances-get
+  description: Returns a list of container instances in a specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionlistcontainerinstances-get-openapi.md
+- name: AWS EC2 Container Service API - Register Container Instance
+  x-api-slug: actionregistercontainerinstance-get
+  description: Deregisters an Amazon ECS container instance from the specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionregistercontainerinstance-get-openapi.md
+- name: AWS EC2 Container Service API - Update Container Agent
+  x-api-slug: actionupdatecontaineragent-get
+  description: Updates the Amazon ECS container agent on a specified container instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionupdatecontaineragent-get-openapi.md
+- name: AWS EC2 Container Service API - Deregister Container Instance
+  x-api-slug: actionderegistercontainerinstance-get
+  description: Deregisters an Amazon ECS container instance from the specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionderegistercontainerinstance-get-openapi.md
+- name: AWS EC2 Container Service API - Describe Container Instances
+  x-api-slug: actiondescribecontainerinstances-get
+  description: Describes Amazon EC2 Container Service container instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actiondescribecontainerinstances-get-openapi.md
+- name: AWS EC2 Container Service API - Discover Poll Endpoint
+  x-api-slug: actiondiscoverpollendpoint-get
+  description: This action is only used by the Amazon EC2 Container Service agent,
+    and it is not intended for use outside of the agent.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actiondiscoverpollendpoint-get-openapi.md
+- name: AWS EC2 Container Service API - List Container Instances
+  x-api-slug: actionlistcontainerinstances-get
+  description: Returns a list of container instances in a specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionlistcontainerinstances-get-openapi.md
+- name: AWS EC2 Container Service API - Register Container Instance
+  x-api-slug: actionregistercontainerinstance-get
+  description: Deregisters an Amazon ECS container instance from the specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionregistercontainerinstance-get-openapi.md
 - name: AWS EC2 Container Service API - Submit Container State Change
   x-api-slug: actionsubmitcontainerstatechange-get
   description: This action is only used by the Amazon EC2 Container Service agent,
@@ -50,6 +171,79 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionsubmittaskstatechange-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionsubmittaskstatechange-get-openapi.md
+- name: AWS EC2 Container Service API - Update Container Agent
+  x-api-slug: actionupdatecontaineragent-get
+  description: Updates the Amazon ECS container agent on a specified container instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionupdatecontaineragent-get-openapi.md
+- name: AWS EC2 Container Service API - Deregister Container Instance
+  x-api-slug: actionderegistercontainerinstance-get
+  description: Deregisters an Amazon ECS container instance from the specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionderegistercontainerinstance-get-openapi.md
+- name: AWS EC2 Container Service API - Describe Container Instances
+  x-api-slug: actiondescribecontainerinstances-get
+  description: Describes Amazon EC2 Container Service container instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actiondescribecontainerinstances-get-openapi.md
+- name: AWS EC2 Container Service API - Discover Poll Endpoint
+  x-api-slug: actiondiscoverpollendpoint-get
+  description: This action is only used by the Amazon EC2 Container Service agent,
+    and it is not intended for use outside of the agent.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actiondiscoverpollendpoint-get-openapi.md
+- name: AWS EC2 Container Service API - List Container Instances
+  x-api-slug: actionlistcontainerinstances-get
+  description: Returns a list of container instances in a specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionlistcontainerinstances-get-openapi.md
+- name: AWS EC2 Container Service API - Register Container Instance
+  x-api-slug: actionregistercontainerinstance-get
+  description: Deregisters an Amazon ECS container instance from the specified cluster.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionregistercontainerinstance-get-openapi.md
 - name: AWS EC2 Container Service API - Submit Container State Change
   x-api-slug: actionsubmitcontainerstatechange-get
   description: This action is only used by the Amazon EC2 Container Service agent,
@@ -80,6 +274,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionsubmittaskstatechange-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionsubmittaskstatechange-get-openapi.md
+- name: AWS EC2 Container Service API - Update Container Agent
+  x-api-slug: actionupdatecontaineragent-get
+  description: Updates the Amazon ECS container agent on a specified container instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png
+  humanURL: https://aws.amazon.com/ecs/
+  baseURL: :///
+  tags: Amazon Web Services, Containers, Stack Network, API Service Provider, API
+    Service Provider, API Provider, Deployments, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/actionupdatecontaineragent-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.ec2.container.registry.service.api.gallery.streamdata.io

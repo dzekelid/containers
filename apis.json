@@ -1,0 +1,584 @@
+{
+	"name": "Streadata.io API Gallery - Containers",
+	"description": "This is a repository of containers APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/containers.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://containers.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "DigitalOcean",
+			"x-api-slug": "digitalocean",
+			"description": "DigitalOcean is a simple and fast cloud hosting service built for developers. Customers can create a cloud server in 55 seconds, and pricing plans start at only $5 per month for 512MB of RAM, 20GB SSD, 1 CPU, and 1TB Transfer. Featuring a 99.99% Uptime SLA, DigitalOcean has servers located in New York, San Francisco, and Amsterdam. The DigitalOcean control panel interface is simple and intuitive, which power users can replicate on a larger scale with the company&rsquo;s API. DigitalOcean uses KVM virtualization and additionally hosts a library of helpful walkthroughs and tutorials that cover server configuration and optimization.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DO_Logo_Horizontal_Black-3500c326.png",
+			"humanURL": "https://www.digitalocean.com",
+			"baseURL": "https://example.com//",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/digitalocean/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Panamax Project",
+			"x-api-slug": "panamax-project",
+			"description": "An open-source project that makes deploying complex containerized apps as easy as Drag-and-Drop. Panamax is a containerized app creator with an open-source app marketplace hosted in GitHub. Panamax provides a friendly interface for users of Docker, Fleet &amp; CoreOS. With Panamax, you can easily create, share and deploy any containerized app no matter how complex it might be.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/panamax-logo.png",
+			"humanURL": "http://panamax.io/",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/panamax-project/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docker",
+			"x-api-slug": "docker",
+			"description": "Docker is an open platform for developers and system administrators to build, ship and run distributed applications. With Docker, IT organizations shrink application delivery from months to minutes, frictionlessly move workloads between data centers an...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11306-docker.jpg",
+			"humanURL": "https://www.docker.com/",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/docker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenVZ",
+			"x-api-slug": "openvz",
+			"description": "OpenVZ is a container-based virtualization for Linux. OpenVZ creates multiple secure, isolated Linux containers (otherwise known as VEs or VPSs) on a single physical server enabling better server utilization and ensuring that applications do not confli...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11307-openvz-containers.jpg",
+			"humanURL": "http://openvz.org/Main_Page",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/openvz/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shipyard Project",
+			"x-api-slug": "shipyard-project",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11436-shipyard.jpg",
+			"humanURL": "http://shipyard-project.com/",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/shipyard-project/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CoreOS",
+			"x-api-slug": "coreos",
+			"description": "Learn more about how CoreOS and Red Hat have joined forces to extend the value of containers and Kubernetes with OpenShift Container Platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11505-coreos-linux.jpg",
+			"humanURL": "https://coreos.com/",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/coreos/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Joyent",
+			"x-api-slug": "joyent",
+			"description": "Open source and Hybrid Cloud Infrastructure as a Service specialized in running Containers, Serverless Docker and VMs securely at scale for over a decade.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11655-joyent.jpg",
+			"humanURL": "https://www.joyent.com/",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/joyent/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cloudify",
+			"x-api-slug": "cloudify",
+			"description": "Cloudify is an open source application and network orchestration framework based on TOSCA, that supports hybrid cloud deployments.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11767-cloudify.jpg",
+			"humanURL": "http://getcloudify.org/",
+			"baseURL": "https:////http://localhost:8100",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/cloudify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kubernetes",
+			"x-api-slug": "kubernetes",
+			"description": "Manage a cluster of Linux containers as a single system to accelerate Dev and simplify Ops. Kubernetes is an open source orchestration system for Docker containers. It handles scheduling onto nodes in a compute cluster and actively manages workloads to ensure that their state matches the users declared intentions. Using the concepts of labels and pods, it groups the containers which make up an application into logical units for easy management and discovery.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/kubernetes-logo.png",
+			"humanURL": "http://kubernetes.io/",
+			"baseURL": ":///api/v1beta3/127.0.0.1:6443",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/kubernetes/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenShift",
+			"x-api-slug": "openshift",
+			"description": "OpenShift is an open source container application platform by Red Hat based on top of Docker containers and the Kubernetes container cluster manager for enterprise app development and deployment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18605-openshift-by-red-hat.jpg",
+			"humanURL": "https://www.openshift.com/",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/openshift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apache Karaf",
+			"x-api-slug": "apache-karaf",
+			"description": "Karaf provides dual polymorphic container and application bootstrapping paradigms to the Enterprise. Focus on your business code and application, Karaf deals with the rest.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-karaf-logo.png",
+			"humanURL": "http://karaf.apache.org/",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/apache-karaf/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Wercker",
+			"x-api-slug": "wercker",
+			"description": "Oracles Wercker is a container-centric automation platform used to develop, build, test and deploy cloud-native applications. Wercker was founded in 2011 and has offices in San Francisco, London and Amsterdam. Wercker is used by organisations deployin...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19931-wercker.jpg",
+			"humanURL": "http://wercker.com/",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/wercker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codeship",
+			"x-api-slug": "codeship",
+			"description": "Codeship is a fast and secure hosted Continuous Integration service that scales with your needs. It supports GitHub, Bitbucket, and Gitlab projects.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20096-codeship.jpg",
+			"humanURL": "https://codeship.com/",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/codeship/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LaunchDarkly",
+			"x-api-slug": "launchdarkly",
+			"description": "Our vision is to eliminate risk for developers and operations teams from the software development cycle. As companies transition to a world built on software, there is an increasing requirement to move quickly&mdash;but that often comes with the desire to maintain control. LaunchDarkly is the feature management platform that enables dev and ops teams to control the whole feature lifecycle, from concept to launch to value. Feature flagging is an industry best practice of wrapping a new or risky section of code or infrastructure change with a flag. Each flag can easily be turned on/off independent of code deployment (aka &rdquo;dark launching&rdquo;). Equipping businesses with the ability to move at the speed of every deploy allows an entire company to learn rapidly, deliver value to their customers faster, and produce more value. Developers can build, marketing can launch, product can iterate, and sales can sell.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg",
+			"humanURL": "http://www.launchdarkly.com",
+			"baseURL": "https://app.launchdarkly.com//api/v2",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/launchdarkly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Container Registry Service",
+			"x-api-slug": "aws-ec2-container-registry-service",
+			"description": "Amazon EC2 Container Registry (ECR) is a fully-managedDockercontainer registry that makes it easy for developers to store, manage, and deploy Docker container images. Amazon ECR is integrated withAmazon EC2 Container Service (ECS), simplifying your development to production workflow. Amazon ECR eliminates the need to operate your own container repositories or worry about scaling the underlying infrastructure. Amazon ECR hosts your images in a highly available and scalable architecture, allowing you to reliably deploy containers for your applications. Integration with AWS Identity and Access Management (IAM) provides resource-level control of each repository. With Amazon ECR, there are no upfront fees or commitments. You pay only for the amount of data you store in your repositories and data transferred to the Internet.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECR.png",
+			"humanURL": "https://aws.amazon.com/ecr/",
+			"baseURL": ":///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-registry-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2 Container Service",
+			"x-api-slug": "aws-ec2-container-service",
+			"description": "Amazon EC2 Container Service (ECS) is a highly scalable, high performance container management service that supports Docker containers and allows you to easily run applications on a managed cluster of Amazon EC2 instances. Amazon ECS eliminates the need for you to install, operate, and scale your own cluster management infrastructure. With simple API calls, you can launch and stop Docker-enabled applications, query the complete state of your cluster, and access many familiar features like security groups, Elastic Load Balancing, EBS volumes, and IAM roles. You can use Amazon ECS to schedule the placement of containers across your cluster based on your resource needs and availability requirements. You can also integrate your own scheduler or third-party schedulers to meet business or application specific requirements.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonECS.png",
+			"humanURL": "https://aws.amazon.com/ecs/",
+			"baseURL": ":///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Elastic Beanstalk",
+			"x-api-slug": "aws-elastic-beanstalk",
+			"description": "AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java,.NET, PHP, Node.js, Python, Ruby, Go, andDockeron familiar servers such as Apache, Nginx, Passenger, andIIS.You can simply upload your code and Elastic Beanstalk automatically handles the deployment, from capacity provisioning, load balancing, auto-scaling to application health monitoring. At the same time, you retain full control over the AWS resources powering your application and can access the underlying resources at any time.There is no additional charge for Elastic Beanstalk - you pay only for the AWS resources needed to store and run your applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png",
+			"humanURL": "https://aws.amazon.com/elasticbeanstalk/",
+			"baseURL": ":///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-elastic-beanstalk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Container Builder",
+			"x-api-slug": "google-cloud-container-builder",
+			"description": "Google Cloud Container Builder lets you create Docker container images from application source code located in Google Cloud Storage. Container images created by Container Builder are automatically stored in Google Container Registry. You can deploy the container images you create on Google Container Engine, Google Compute Engine, Google App Engine flexible environment or other services where you can run applications from Docker containers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/container-builder-lead.png",
+			"humanURL": "https://cloud.google.com/container-builder/",
+			"baseURL": "://cloudbuild.googleapis.com//",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/google-cloud-container-builder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Container Engine",
+			"x-api-slug": "google-container-engine",
+			"description": "Google Container Engine is a powerful cluster manager and orchestration system for running your Docker containers. Container Engine schedules your containers into the cluster and manages them automatically based on requirements you define (such as CPU and memory). Its built on the open source Kubernetes system, giving you the flexibility to take advantage of on-premises, hybrid, or public cloud infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/docker-container.png",
+			"humanURL": "https://cloud.google.com/container-engine/",
+			"baseURL": "://container.googleapis.com//",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/google-container-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Tag Manager",
+			"x-api-slug": "google-tag-manager",
+			"description": "Deploy and update measurement tags on your websites and mobile apps without major code changes and app releases. Use Google Tag Manager to manage tags (such as tracking and marketing optimization JavaScript tags) on your site. Without editing your site code, you use GTM user interface to add and update AdWords, Google Analytics, Floodlight, and non-Google tags. This reduces errors and allows you to to deploy tags on your site quickly.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/googl_tag_manager_gplus-250.png",
+			"humanURL": "https://developers.google.com/tag-manager/",
+			"baseURL": "://www.googleapis.com//tagmanager/v1",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/google-tag-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Container Service",
+			"x-api-slug": "azure-container-service",
+			"description": "Azure Container Service optimizes the configuration of popular open-source tools and technologies specifically for Azure. You get an open solution that offers portability for both your containers and your application configuration. You select the size, number of hosts, and choice of orchestrator tools&mdash;Container Service handles everything else.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-container-service.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/container-service/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Container Registry",
+			"x-api-slug": "azure-container-registry",
+			"description": "Azure Container Registry allows you to store images for all types of container deployments including DC/OS, Docker Swarm, Kubernetes, and Azure services such as App Service, Batch, Service Fabric, and others. Your DevOps team can manage the configuration of apps isolated from the configuration of the hosting environment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-manage-containers.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/container-registry/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Data Lake Analytics",
+			"x-api-slug": "azure-data-lake-analytics",
+			"description": "The Data Lake analytics service is a new distributed analytics service built on Apache YARN that dynamically scales so you can focus on your business goals, not on distributed infrastructure. Instead of deploying, configuring and tuning hardware, you write queries to transform your data and extract valuable insights. The analytics service can handle jobs of any scale instantly by simply setting the dial for how much power you need. You only pay for your job when it is running making it cost-effective. The analytics service supports Azure Active Directory letting you simply manage access and roles, integrated with your on-premises identity system. It also includes U-SQL, a language that unifies the benefits of SQL with the expressive power of user code. U-SQL&rsquo;s scalable distributed runtime enables you to efficiently analyze data in the store and across SQL Servers in Azure, Azure SQL Database and Azure SQL Data Warehouse.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/data-lake-analytics/",
+			"baseURL": ":////",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-data-lake-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Cloud",
+			"x-api-slug": "ibm-cloud",
+			"description": "The IBM Cloud has been built to help you solve problems and advance opportunities in a world flush with data. Whether it&rsquo;s data you possess, data outside your firewall, or data that&rsquo;s coming, the IBM Cloud helps you protect it, move it, integrate it and unlock intelligence from it &mdash; giving you what it takes to prevail in a competitive market.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28560-ibm-containers.jpg",
+			"humanURL": "https://www.ibm.com/cloud/",
+			"baseURL": "https://containers-api.ng.bluemix.net//v3",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/ibm-cloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NxtPort",
+			"x-api-slug": "nxtport",
+			"description": "NxtPort opens the gates to the Port of the future. This project is a milestone in the digitalization of logistics and cargo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg",
+			"humanURL": "https://www.nxtport.eu",
+			"baseURL": "https://api-sb.nxtport.eu//PortCallPlus/v1",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/nxtport/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Logicbroker",
+			"x-api-slug": "logicbroker",
+			"description": "Logicbroker provides beautiful technology that unites brands, retailers, and the systems they rely on. Harness the latest in cloud and supply chain automation technology with unrivaled speed and integration flexibility. We craft the connections that enable digital commerce.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png",
+			"humanURL": "https://www.logicbroker.com/",
+			"baseURL": "https://stage.commerceapi.io//",
+			"tags": "Containers",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/logicbroker/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Containers",
+	"include": [
+		{
+			"name": "DigitalOcean",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/digitalocean/apis.yaml"
+		},
+		{
+			"name": "Panamax Project",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/panamax-project/apis.yaml"
+		},
+		{
+			"name": "Docker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/docker/apis.yaml"
+		},
+		{
+			"name": "OpenVZ",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/openvz/apis.yaml"
+		},
+		{
+			"name": "Shipyard Project",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/shipyard-project/apis.yaml"
+		},
+		{
+			"name": "CoreOS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/coreos/apis.yaml"
+		},
+		{
+			"name": "Joyent",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/joyent/apis.yaml"
+		},
+		{
+			"name": "Cloudify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/cloudify/apis.yaml"
+		},
+		{
+			"name": "Kubernetes",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/kubernetes/apis.yaml"
+		},
+		{
+			"name": "OpenShift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/openshift/apis.yaml"
+		},
+		{
+			"name": "Apache Karaf",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/apache-karaf/apis.yaml"
+		},
+		{
+			"name": "Wercker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/wercker/apis.yaml"
+		},
+		{
+			"name": "Codeship",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/codeship/apis.yaml"
+		},
+		{
+			"name": "LaunchDarkly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/launchdarkly/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Container Registry Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-registry-service/apis.yaml"
+		},
+		{
+			"name": "AWS EC2 Container Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-ec2-container-service/apis.yaml"
+		},
+		{
+			"name": "AWS Elastic Beanstalk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/aws-elastic-beanstalk/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Container Builder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/google-cloud-container-builder/apis.yaml"
+		},
+		{
+			"name": "Google Container Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/google-container-engine/apis.yaml"
+		},
+		{
+			"name": "Google Tag Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/google-tag-manager/apis.yaml"
+		},
+		{
+			"name": "Azure Container Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-service/apis.yaml"
+		},
+		{
+			"name": "Azure Container Registry",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-container-registry/apis.yaml"
+		},
+		{
+			"name": "Azure Data Lake Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/azure-data-lake-analytics/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "IBM Cloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/ibm-cloud/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "NxtPort",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/nxtport/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Logicbroker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/containers/master/_listings/logicbroker/apis.yaml"
+		}
+	]
+}
